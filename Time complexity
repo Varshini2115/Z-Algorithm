@@ -1,0 +1,24 @@
+
+### Preprocessing Step (Constructing Z Array):
+
+The preprocessing step involves constructing the Z array, which stores the longest substring starting from each index that matches the prefix of the pattern. This step contributes to the overall time complexity.
+
+- **Time Complexity**: O(n + m)
+
+The construction of the Z array takes linear time proportional to the sum of the lengths of the text and the pattern. This is because each character in the text and the pattern is processed once to compute the values stored in the Z array.
+
+### Pattern Matching Step:
+
+After constructing the Z array, the algorithm scans through the Z array to find occurrences of the pattern within the text. This step involves comparing characters in the text and the pattern to determine matches.
+
+- **Time Complexity**: O(n + m)
+
+The pattern matching step also takes linear time proportional to the sum of the lengths of the text and the pattern. Although the actual matching process may involve multiple iterations in certain cases (e.g., when the pattern occurs multiple times), the overall time complexity remains linear.
+
+### Overall Time Complexity:
+
+Considering both the preprocessing step and the pattern matching step, the overall time complexity of the Z algorithm is determined by the dominant factor, which is the sum of the lengths of the text and the pattern.
+
+- **Overall Time Complexity**: O(n + m)
+
+In summary, the Z algorithm offers linear time complexity O(n + m), making it efficient for pattern matching tasks, even in worst-case scenarios. This characteristic makes it suitable for various applications where fast pattern matching is required.

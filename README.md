@@ -18,10 +18,9 @@ The Z algorithm is a linear time pattern matching algorithm used to find occurre
 **Python:**
 - Edge cases in Python are similar to C/C++, focusing on scenarios with extremely short or empty pattern and text strings.
 - Python-specific edge cases may involve handling Unicode characters or dealing with string encoding issues.
-
--EXAMPLE:
--Text:
--Pattern:abc
+- EXAMPLE:
+- Text:
+- Pattern:abc
 
 ### Best Case
 
@@ -32,10 +31,9 @@ The Z algorithm is a linear time pattern matching algorithm used to find occurre
 **Python:**
 - The best-case scenario in Python is also when the pattern is not found in the text.
 - Similar to C/C++, the preprocessing step to construct the Z array runs in linear time O(m).
-
--EXAMPLE:
--Text:This is a test case   
--Pattern:apple
+- EXAMPLE:
+- Text:This is a test case   
+- Pattern:apple
 
 
 ### Worst Case
@@ -49,9 +47,9 @@ The Z algorithm is a linear time pattern matching algorithm used to find occurre
 - The worst-case scenario in Python is identical to C/C++.
 - Despite Python's inherent overhead, the worst-case time complexity remains O(n + m), similar to C/C++.
   
--EXAMPLE:
--Text:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
--Pattern:AA
+- EXAMPLE:
+- Text:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+- Pattern:AA
 
 ## Conclusion
 

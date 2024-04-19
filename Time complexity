@@ -19,6 +19,7 @@ The pattern matching step also takes linear time proportional to the sum of the 
 
 Considering both the preprocessing step and the pattern matching step, the overall time complexity of the Z algorithm is determined by the dominant factor, which is the sum of the lengths of the text and the pattern.
 
+
 - **Overall Time Complexity**: O(n + m)
 
 In summary, the Z algorithm offers linear time complexity O(n + m), making it efficient for pattern matching tasks, even in worst-case scenarios. This characteristic makes it suitable for various applications where fast pattern matching is required.
